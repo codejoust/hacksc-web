@@ -1,0 +1,100 @@
+* { margin:0 ; padding:0; }
+        body {
+            font-family: Helvetica Neue, Helvetica, Sans-Serif;  
+            background: #241b1b;
+        }
+        html, body { height: 100%; }
+        body > section { width: 100%; }
+        body section#header { background-image:url("../images/bg.jpg"); background-size: cover; height: 60%;  }
+        body header { height: 170px; background:rgba(0,0,0,0.35); text-align: center; padding: 10px; }
+        body #header {
+            min-height: 580px;
+        }
+        body header h1 { color:transparent; background: url("../images/hacksc_logo.png") no-repeat center; height:126px; }
+        body header h3 { font-family: courier, monospace; color:#fff; font-weight :normal; font-size: 42px; text-shadow:0 0 2px black; }
+        body section#signup input {
+            background: transparent;
+            color:#fff;
+            font-family: courier new, courier, monospace;
+            font-size: 1.1em;
+            border: 0 none;
+        }
+        body section#signup {
+            padding: 20px;
+            background: #241b1b;
+            color: #fff;
+            font-size: 1.5em;
+        }
+        body .inner.dark {
+            padding: 40px;
+	    text-align:center;
+	    width:100%;
+            background: #241b1b;
+            color: #fff;
+            font-size: 1.2em;
+            background: black url("../images/city-skyline.jpg") repeat-x center;
+            text-shadow: 2px 1px 3px black;
+        }
+        body section#signup {  }
+        .inner { width: 630px; margin: 0 auto; }
+        
+        #about {line-height: 2em;font-size:1.25em;padding:40px 0;padding-bottom:60px; color:#222;background:#fefefe;  }
+        #footer { color:#fefefe; text-align:center; padding:20px;}
+        .typewriter {
+    white-space: pre-wrap;
+    margin-right: -6px;
+  }
+  #prompt .inner {margin: 0 auto;
+width: 394px;
+font-size: 39px;
+line-height: 1.2em;
+font-family: courier new;
+font-weight: bold;
+color: white;
+text-shadow: 2px 1px 3px black;
+margin-top: 65px;}
+        #prompt .inner a { color:white}
+  .caret {
+    background: white;
+  }
+        #mce-EMAIL {
+            transition: 1s box-shadow linear;
+            padding: 2px;
+        }
+        .hilight {
+         box-shadow: 0px 0px 10px white;
+        }
+        #footer {
+            background-image: url("../images/working_dark.jpg");
+            background-size: cover;
+            height: 200px;
+            
+        }
+
+
+.caret {
+  
+  -webkit-animation: blink 1.5s linear 0s infinite;
+  -moz-animation: blink 1.5s linear 0s infinite;
+  -ms-animation: blink 1.5s linear 0s infinite;
+}
+@-webkit-keyframes blink {
+  0%   { opacity: 1 }
+  70%  { opacity: 1 }
+  80% { opacity: 0; }
+  100% { background: 1 }
+}
+ 
+@-moz-keyframes blink {
+              0%   { opacity: 1 }
+  70%  { opacity: 1 }
+  80% { opacity: 0; }
+  100% { background: 1 }
+}
+ 
+@-ms-keyframes blink {
+              0%   { opacity: 1 }
+  70%  { opacity: 1 }
+  80% { opacity: 0; }
+  100% { background: 1 }
+}
