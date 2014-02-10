@@ -39,5 +39,5 @@ tw.put('# ')
     .put('.')
     .wait(200)
     .put('<br/>')
-    .put('<a href="javascript:hilight();">signup</a>');
+    .put('<a href="javascript:hilight();" id="whiteunderline">signup</a>');
         

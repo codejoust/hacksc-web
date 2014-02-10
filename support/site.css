@@ -297,3 +297,9 @@ p {
     text-decoration:none;
     border:0 none;
 }
+#whiteunderline {
+    border-bottom:2px solid white;
+}
+#whiteunderline:hover {
+    border-bottom:none;
+}
