@@ -275,3 +275,13 @@ h2, h3, h4, h5, h6 {
         float: left;
     }
 }
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          
+  box-sizing: border-box;
+}
+/* fix bootstrap sizing stuff */
