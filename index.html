@@ -4,11 +4,16 @@
     
     <title>HackSC - March 7-9th - West Coast Hackathon</title>
     <link rel="stylesheet" type="text/css" href="support/site.css" />
+    <link rel="stylesheet" type="text/css" href="support/bootstrap.css" />
+    <link href="http://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Alegreya:700|Source+Code+Pro" rel="stylesheet" type="text/css" />
     
     <!-- open graph tags -->
     <meta property="og:url" content="http://hacksc.com/" />
     <meta property="og:image" content="http://hacksc.com/images/hacksc_weblogo.png" />
     
+    <!-- Make responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 <body>
     
@@ -20,26 +25,27 @@
         </header>
             
         
-<section id="signup">
+        <section id="signup">
+            
+            
+            <form action="http://instasc.us7.list-manage.com/subscribe/post?u=cd76a191f3a16d96c7167220f&amp;id=5110b83c32" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         
-        
-        <form action="http://instasc.us7.list-manage.com/subscribe/post?u=cd76a191f3a16d96c7167220f&amp;id=5110b83c32" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    
-            <div class="inner">
-                <span class="inner annot">
-                    <strong>$_ <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="you@yourcollege.edu"/>
-                        <input type="submit" value="signup &raquo;" name="subscribe" id="mc-embedded-subscribe" class="button">
-                    </strong>
-                </span> 
-            </div>
-        </form>
-        
-    </section>
+                <div class="inner">
+                    <span class="inner annot">
+                        <strong>$_ <input type="email" value="" name="EMAIL" class="requiredemail" id="mce-EMAIL" placeholder="you@yourcollege.edu" />
+                            <input type="submit" value="signup &raquo;" name="subscribe" id="mc-embedded-subscribe" class="button">
+                        </strong>
+                    </span> 
+                </div>
+            </form>
+            
+        </section>
 
     </section>
 
         
         
+<!--     
     <section id="prompt" class="prompt_bg">
         <div class="inner">
             
@@ -56,52 +62,65 @@
             </noscript>
             
         </div>
-    </section>
+    </section> -->
 
 
-    
+    <div id="container">
     <section id="about">
         
         <div class="inner">
     
-            <h3>ABOUT:</h3>
-            <p>Build stuff, hack, and innovate at USC during the weekend of March 7<sup>th</sup> 2014.</p>
-            <p>Don't miss out, join us and sign up for updates above.</p>
-            
-            <p>Have questions or want to sponsor us? email hi@hacksc.com</p>
+
+            <h3>ABOUT</h3>
+            <p>Build stuff, hack, and innovate at USC during the weekend of March 7<sup>th</sup> 2014.
+                This is the 36-hour hackathon you won't want to miss out on! Join us and sign up for updates above.
+                Have questions or want to sponsor us? Email <a href="mailto:hi@hacksc.com">hi@hacksc.com</a></p>
             <p>&nbsp;</p>
 
         </div>
         
         <div class='inner dark'>
-            <h3>500+ makers and doers</h3>
-            <h3>Los Angeles. West Coast</h3>
-            <h3>create different</h3>
+            <h5>500+ makers and doers</h5>
+            <h5>Los Angeles. West Coast</h5>
+            <h5>create different</h5>
         </div>
         
-        <div class='inner'>
-            
+	    <div class='inner'>
             <br/>
+            <div class="faq">
+            <h3>FAQ</h3>
             
-            <h3>FAQ:</h3>
-            
-            <h4>Is this hackathon restricted to USC students?</h4>
-            <p>No! If you're in SoCal, we're sending busses from SoCal Universities to USC to participate in this hackathon.</p>
-            
-            <h4>Don't you hack into stuff at a hackthon?</h4>
-            <p>No! You create and build stuff with technology, be creative and build awesome stuff in 48 hours.</p>
+            <div class="row">
+                <div class="col-sm-6">
+                    <b>Why haven't I heard of this yet?</b>
+                    <p>Now you have! We're still finishing planning final details. Sign up above to keep updated.
+                        Also, like us on <a href="https://www.facebook.com/gohacksc">Facebook</a> and follow us on Twitter at 
+                        <a href="https://twitter.com/gohacksc">@gohacksc</a>.
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <b>Is this hackathon restricted to USC students?</b>
+                    <p>No. We'll even provide transportation (details forthcoming) to USC to allow non-USC students to participate in this hackathon.</p>
+                </div>
+            </div>
 
-            <h4>Are there rules of conduct for this event?</h4>
-            <p>Yes - we're following the standard tech conference guidelines set out at <a href="http://confcodeofconduct.com/">confcodeofconduct.com</a>.</p>
-            
-            
+            <div class="row">
+                <div class="col-sm-6">
+                    <b>Don't you hack into stuff at a hackthon?</b>
+                    <p>No, you create and build stuff with technology.</p>
+                </div>
+                <div class="col-sm-6">
+                    <b>Are there rules of conduct for this event?</b>
+                    <p>Yes. We're following the standard tech conference guidelines set out at <a href="http://confcodeofconduct.com/">confcodeofconduct.com</a>.</p>
+                </div>
+            </div>
 
         </div>
         
             
         <div class="sponsors inner">
             <br/><br/>
-            <h3>SPONSORS:</h3>
+            <h3>SPONSORS</h3>
             
             <p class="sponsors_list">
                 <!-- USC Viterbi -->
@@ -114,7 +133,7 @@
                     <img src="images/sponsors/usc-viterbi-vsi2.png"/>
                 </a>
 
-         <p>If you're a company, email us at hi@hacksc.com or see our <a href="/partner">partnership information online</a>.</p>
+                <p>If you're a company, email us at hi@hacksc.com or see our <a href="/partner">partnership information online</a>.</p>
                 
             
             </p>
@@ -125,12 +144,15 @@
     
     <section id="footer">
         <div class="inner">
-            <p>organized by USC students, vsi^2</p>
+            <p>organized by USC students</p>
         </div>
-    </section>    
+    </section>
+
+    </div> <!-- close container div -->
+
     
     <script src="support/typewriter-bundle.min.js"></script>
-    <script src="support/jquery.terminal-0.7.12.min.js"></script>
+    <!-- unused: <script src="support/jquery.terminal-0.7.12.min.js"></script>-->
     <script src="support/site.js"></script>
     
     <!-- ga -->
@@ -139,10 +161,8 @@
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    
       ga('create', 'UA-5438040-34', 'hacksc.com');
       ga('send', 'pageview');
-    
     </script>
     
 </body>
