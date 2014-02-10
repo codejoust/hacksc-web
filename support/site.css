@@ -38,11 +38,11 @@ body header h3 {
   background:url('../images/date-logo.png') no-repeat center;
   background-size: 300px 75px;
   height: 75px;
+  margin-top: 0;
+
 }
 body #prompt {
     /*background:url('../images/terminal_window.png') no-repeat center white;
->>>>>>> gh-pages
-
     height: 630px;*/
     height: 220px;
 }
@@ -283,5 +283,12 @@ h2, h3, h4, h5, h6 {
      -moz-box-sizing: border-box;
           
   box-sizing: border-box;
+}
+sup {
+    font-size: 75%;
+    line-height: 0;
+}
+p {
+    margin: 0 0 10px;
 }
 /* fix bootstrap sizing stuff */
