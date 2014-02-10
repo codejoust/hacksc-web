@@ -17,6 +17,12 @@
           background-size: 300px 419px;
           height: 426px;
         }
+        body header h1 {
+          color:transparent; 
+          background:url('../images/date-logo.png') no-repeat center;
+          background-size: 300px 75px;
+          height: 75px;
+        }
         body #prompt {
           /*background:url('../images/terminal_window.png') no-repeat center white;
           
