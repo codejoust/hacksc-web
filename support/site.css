@@ -5,13 +5,29 @@
         }
         html, body { height: 100%; }
         body > section { width: 100%; }
-        body section#header { background-image:url("../images/bg.jpg"); background-size: cover; height: 60%;  }
-        body header { height: 170px; background:rgba(0,0,0,0.35); text-align: center; padding: 10px; }
+        body section#header { position: relative; padding-top:30px; background-image:url("../images/bg.jpg"); background-size: cover; height: 60%;  }
+        body header { height: 170px; /*background:rgba(0,0,0,0.35); */ text-align: center; padding: 10px; }
         body #header {
             min-height: 580px;
         }
-        body header h1 { color:transparent; background: url("../images/hacksc_logo.png") no-repeat center; height:126px; }
-        body header h3 { font-family: courier, monospace; color:#fff; font-weight :normal; font-size: 42px; text-shadow:0 0 2px black; }
+        /*body header h1 { color:transparent; background: url("../images/hacksc_logo.png") no-repeat center; height:126px; }*/
+        body header h1 {
+          color:transparent; 
+          background:url('../images/hacksc_weblogo-whtx.png') no-repeat center;
+          background-size: 300px 419px;
+          height: 426px;
+        }
+        body #prompt {
+          /*background:url('../images/terminal_window.png') no-repeat center white;
+          
+          height: 630px;*/
+          height: 220px;
+
+        }
+        body #prompt {
+
+        }
+        body header h3 { font-family: courier, monospace; color:#fff;text-indent:-4000px; font-weight :normal; font-size: 42px; text-shadow:0 0 2px black; }
         body section#signup input {
             background: transparent;
             color:#fff;
@@ -20,8 +36,17 @@
             border: 0 none;
         }
         body section#signup {
+          /* bottom
+          */
+          bottom: 0;
+position: absolute;
+left: 0;
+right: 0;
+background: 
+rgba(0,0,0,0.4);
+
             padding: 20px;
-            background: #241b1b;
+/*            background: #241b1b;*/
             color: #fff;
             font-size: 1.5em;
         }
@@ -44,7 +69,7 @@
     white-space: pre-wrap;
     margin-right: -6px;
   }
-  #prompt .inner {margin: 0 auto;
+  /*#prompt .inner {margin: 0 auto;
 width: 394px;
 font-size: 39px;
 line-height: 1.2em;
@@ -52,7 +77,27 @@ font-family: courier new;
 font-weight: bold;
 color: white;
 text-shadow: 2px 1px 3px black;
-margin-top: 65px;}
+margin-top: 65px;}*/
+
+#prompt .inner {margin: 0 auto;
+width: 600px;
+padding-top: 50px;
+padding-left: 20px;
+font-size: 20px;
+line-height: 1.1em;
+font-family: courier new;
+font-weight: bold;
+color: #444;
+/*text-shadow: 2px 1px 3px black;*/
+/*margin-top: 65px;*/
+font-size: 24px;
+line-height: 1.1em;
+font-family: courier new;
+font-weight: bold;
+color: #fefefe;
+font-weight: normal;
+}
+
         #prompt .inner a { color:white}
   .caret {
     background: white;
@@ -68,7 +113,6 @@ margin-top: 65px;}
             background-image: url("../images/working_dark.jpg");
             background-size: cover;
             height: 200px;
-            
         }
 
 

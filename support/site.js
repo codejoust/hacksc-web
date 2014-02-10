@@ -7,6 +7,8 @@ function hilight(){
     email.focus();
 }
 
+
+
 // require typewriter script
 var typewriter = require('typewriter');
 // get element
