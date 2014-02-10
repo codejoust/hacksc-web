@@ -15,7 +15,7 @@ body section#header {
     padding-top:30px;
     background-image:url("../images/bg.jpg");
     background-size: cover;
-    height: 60%;
+    height: 78%;
 }
 body header {
     height: 170px;
@@ -188,6 +188,7 @@ margin-top: 65px;}*/
 /* if mobile */
 @media only screen and (max-width: 626px) {
   .inner {width:90%;}
+  body section#header {height:100%;}
 }
 
 .inner h3 {
@@ -292,3 +293,7 @@ p {
     margin: 0 0 10px;
 }
 /* fix bootstrap sizing stuff */
+.imagelink {
+    text-decoration:none;
+    border:0 none;
+}
