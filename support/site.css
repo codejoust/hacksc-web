@@ -4,8 +4,14 @@ body {
     font-family: Helvetica Neue, Helvetica, Sans-Serif;  
     background: #241b1b;
 }
-
-.register {
+#signup .annot {
+width: 130px;
+display: block;
+}
+.registration:hover {
+color:#fefefe;
+}
+.registration {
   border-style: solid;
 border-width: 0px;
 cursor: pointer;
@@ -22,8 +28,10 @@ padding-right: 2rem;
 padding-bottom: 1.0625rem;
 padding-left: 2rem;
 font-size: 1rem;
-background-color: #008cba;
+/*background-color: #008cba;*/
+background-color: #900;
 border-color: #007095;
+margin-bottom: 0px;
 color: white;
 -webkit-transition: background-color 300ms ease-out;
 -moz-transition: background-color 300ms ease-out;
