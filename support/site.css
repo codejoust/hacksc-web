@@ -303,3 +303,9 @@ p {
 #whiteunderline:hover {
     border-bottom:none;
 }
+.requiredemail {
+    outline: 0;
+}
+.button:hover {
+    cursor:pointer;
+}
