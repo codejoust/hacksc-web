@@ -11,6 +11,16 @@ display: block;
 .registration:hover {
 color:#fefefe;
 }
+.rtm {
+    float:right;
+    width:50%;
+    top:0;
+    position: relative;
+}
+.ltr {
+    width: 200px;
+float: left;    
+}
 .registration {
   border-style: solid;
 border-width: 0px;
@@ -68,9 +78,9 @@ body #header {
 /*body header h1 { color:transparent; background: url("../images/hacksc_logo.png") no-repeat center; height:126px; }*/
 body header h1 {
     color:transparent; 
-    background:url('../images/hacksc_weblogo-whtx.png') no-repeat center;
-    background-size: 300px 419px;
-    height: 426px;
+    background:url('../images/hacksc_main.png') no-repeat center;
+    /*background-size: 300px 419px;*/
+    height: 318px;
 }
 body header h3 {
   color:transparent; 
@@ -84,6 +94,7 @@ body #prompt {
     /*background:url('../images/terminal_window.png') no-repeat center white;
     height: 630px;*/
     height: 220px;
+    overflow: hidden;
 }
 body header h3 {
     font-family: 'Source Code Pro', courier, monospace, serif;

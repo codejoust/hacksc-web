@@ -18,6 +18,35 @@ var tw = typewriter(twSpan).withAccuracy(95)
                          .withMinimumSpeed(5)
                          .withMaximumSpeed(22)
                          .build();
+
+function print_counts(school_counts){
+
+    var twEl = document.getElementById('typecount');
+    // initalize builder
+    var twCount = typewriter(twEl).withAccuracy(95)
+                         .withMinimumSpeed(5)
+                         .withMaximumSpeed(22)
+                         .build();
+
+    twCount.put('# ')
+    .type('registrations:')
+    .put(' <br />')
+        .waitRange(300, 700);
+
+    for (var i = 0; i < Math.min(3, school_counts.length); i++){
+        twCount
+            .type(school_counts[i][1] + ': \t ')
+            .put('<b>' + school_counts[i][2] + '</b><br />');
+    }
+
+    twCount.put('<br /><br />')
+        
+}
+var scr = document.createElement('script');
+scr.src = 'http://go.hacksc.com/api/counts?callback=print_counts';
+document.body.appendChild(scr);
+
+
 // fancy typewriter dsl
 tw.put('# ')
     .waitRange(500, 1000)
@@ -39,5 +68,7 @@ tw.put('# ')
     .put('.')
     .wait(200)
     .put('<br/>')
-    .put('<a href="javascript:hilight();" id="whiteunderline">signup</a>');
+    .put('<a href="http://go.hacksc.com/registrations/new" id="whiteunderline">signup</a>');
+
+
         
