@@ -4,12 +4,19 @@ body {
     font-family: Helvetica Neue, Helvetica, Sans-Serif;  
     background: #241b1b;
 }
+
 #signup .annot {
-width: 130px;
+width: 300px;
 display: block;
 }
 .registration:hover {
 color:#fefefe;
+}
+body .registration {
+display: inline-block;
+padding: 20px;
+float: left;
+margin: 10px;
 }
 .rtm {
     float:right;
